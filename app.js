@@ -45,4 +45,5 @@ function createThumbnails(imageArray) {
   });
 }
 
+//calling the fucntion we created above with the array as a parameter
 createThumbnails(images);
