@@ -1,11 +1,28 @@
-const images = [{}];
-// images to use to add to array
-// https://i.dailymail.co.uk/i/pix/2010/11/04/article-1326705-0BEABA41000005DC-76_634x413.jpg
+const images = [
+  {
+    src: "https://i.dailymail.co.uk/i/pix/2010/11/04/article-1326705-0BEABA41000005DC-76_634x413.jpg",
+    alt: "A picture of footballer",
+  },
 
-// https://sportsbyte.sunderland.ac.uk/wp-content/uploads/2023/05/1416166644.0-scaled.jpg
+  {
+    src: "https://sportsbyte.sunderland.ac.uk/wp-content/uploads/2023/05/1416166644.0-scaled.jpg",
+    alt: "An image, will update",
+  },
 
-// https://i.pinimg.com/originals/f0/ec/57/f0ec57a192f6e8c49f7d3ca72a12003b.jpg
+  {
+    src: "https://i.pinimg.com/originals/f0/ec/57/f0ec57a192f6e8c49f7d3ca72a12003b.jpg",
+    alt: "An image, will update",
+  },
 
-// https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2172050434.jpg?q=w_1110,c_fill
+  {
+    src: "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2172050434.jpg?q=w_1110,c_fill",
+    alt: "An image, will update",
+  },
 
-// https://www.formula1.com/trackside-images/2024/F1_Grand_Prix_of_Bahrain/2053149561.jpg
+  {
+    src: "https://www.formula1.com/trackside-images/2024/F1_Grand_Prix_of_Bahrain/2053149561.jpg",
+    alt: "An image, will update",
+  },
+];
+
+let thumbnailContainer = document.getElementById("thumbnail-container");
