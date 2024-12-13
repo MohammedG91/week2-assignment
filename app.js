@@ -32,3 +32,17 @@ let thumbnailContainer = document.getElementById("thumbnail-container");
 
 //selecting the large image container by the dom and assigning it as a variable so its easier to select/manipulate without having to write out the whole command everytime
 let largeImageContainer = document.getElementById("large-image-container");
+
+//Create for each loop to go through array of images
+
+function createThumbnails(imageArray) {
+  imageArray.forEach(function (imgs) {
+    const thumbImg = document.createElement("img");
+    thumbImg.src = imgs.src;
+    thumbImg.alt = imgs.alt;
+    thumbImg.className = "thumbnail-img";
+    thumbnailContainer.appendChild(thumbImg);
+  });
+}
+
+createThumbnails(images);
