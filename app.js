@@ -1,3 +1,5 @@
+//Array of images
+
 const images = [
   {
     src: "https://i.dailymail.co.uk/i/pix/2010/11/04/article-1326705-0BEABA41000005DC-76_634x413.jpg",
@@ -25,4 +27,8 @@ const images = [
   },
 ];
 
+//selecting the thumbnail container by the dom and assigning it as a variable so its easier to select/manipulate without having to write out the whole command everytime
 let thumbnailContainer = document.getElementById("thumbnail-container");
+
+//selecting the large image container by the dom and assigning it as a variable so its easier to select/manipulate without having to write out the whole command everytime
+let largeImageContainer = document.getElementById("large-image-container");
