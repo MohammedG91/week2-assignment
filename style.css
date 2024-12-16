@@ -25,7 +25,7 @@
   transform: translateX(-50%);
 }
 
-/* breakpoint for thumbnails */
+/* breakpoint for thumbnails, not working arghhh!!! */
 @media (width < 600px) {
   #all {
     top: auto;
