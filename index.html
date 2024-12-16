@@ -7,15 +7,20 @@
     <script src="./app.js" defer></script>
     <title>Sports Image Gallery</title>
   </head>
-  <body>
+  <body id="all">
     <!-- add one container make flex column -->
     <!-- creating small thumbnail container -->
     <div id="thumbnail-container"></div>
     <!-- creating large image container for main image -->
     <div id="large-image-container"></div>
-    <!-- creating arrow for going to next picture -->
-    <button id="next" aria-label="Go to the next image">&rarr;</button>
-    <!-- creating arrow for going to previous picture -->
-    <button id="previous" aria-label="Go to the previous image">&larr;</button>
+    <!-- creating div for buttons to style -->
+    <div id="nav-btns">
+      <!-- creating arrow for going to next picture -->
+      <button id="next" aria-label="Go to the next image">&rarr;</button>
+      <!-- creating arrow for going to previous picture -->
+      <button id="previous" aria-label="Go to the previous image">
+        &larr;
+      </button>
+    </div>
   </body>
 </html>
